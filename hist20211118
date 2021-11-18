@@ -1,0 +1,16 @@
+   75  git push -u origin main
+   76  ls -lrt
+   77  echo "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" > .token
+   78  ls -lrt
+   79  ls -a
+   80  git status
+   81  echo ".token" >> .gitignore
+   82  cat .gitignore
+   83  git status
+   84  git add .gitignore
+   85  git status
+   86  git commit -m "adding .token as hidden in gitignore"
+   87  git push -u origin main
+   88  cat .token
+   89  git push -u origin main
+   90  echo $HIST
